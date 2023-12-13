@@ -13,6 +13,12 @@
     <loc>https://tesaunders.github.io/rstudio-git/aio.html</loc>
   </url>
   <url>
+    <loc>https://tesaunders.github.io/rstudio-git/git.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/github.html</loc>
+  </url>
+  <url>
     <loc>https://tesaunders.github.io/rstudio-git/images.html</loc>
   </url>
   <url>
@@ -29,6 +35,12 @@
   </url>
   <url>
     <loc>https://tesaunders.github.io/rstudio-git/instructor/aio.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/git.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/github.html</loc>
   </url>
   <url>
     <loc>https://tesaunders.github.io/rstudio-git/instructor/images.html</loc>
@@ -49,7 +61,13 @@
     <loc>https://tesaunders.github.io/rstudio-git/instructor/profiles.html</loc>
   </url>
   <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/publish.html</loc>
+  </url>
+  <url>
     <loc>https://tesaunders.github.io/rstudio-git/instructor/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/rmarkdown.html</loc>
   </url>
   <url>
     <loc>https://tesaunders.github.io/rstudio-git/instructor-notes.html</loc>
@@ -64,6 +82,12 @@
     <loc>https://tesaunders.github.io/rstudio-git/profiles.html</loc>
   </url>
   <url>
+    <loc>https://tesaunders.github.io/rstudio-git/publish.html</loc>
+  </url>
+  <url>
     <loc>https://tesaunders.github.io/rstudio-git/reference.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/rmarkdown.html</loc>
   </url>
 </urlset>
