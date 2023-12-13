@@ -11,13 +11,13 @@
 carpentry: 'incubator'
 
 # Overall title for pages.
-title: 'Lesson Title'
+title: 'Collaborative Data Science with RStudio and Git'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: '2023-12-08'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'software, data, lesson, The Carpentries'
+keywords: 'version control, github, programming'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
@@ -33,7 +33,7 @@ source: 'https://github.com/tesaunders/rstudio-git'
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact:
 
 # Navigation ------------------------------------------------
 #
@@ -58,17 +58,23 @@ contact: 'team@carpentries.org'
 # - another-learner.md
 
 # Order of episodes in your lesson
-episodes: 
+episodes:
 - introduction.Rmd
+- rmarkdown.Rmd
+- git.Rmd
+- github.Rmd
+- publish.Rmd
 
 # Information for Learners
-learners: 
+learners:
+- setup.md
 
 # Information for Instructors
-instructors: 
+instructors:
+- instructor-notes.md
 
 # Learner Profiles
-profiles: 
+profiles:
 
 # Customisation ---------------------------------------------
 #

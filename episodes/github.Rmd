@@ -1,5 +1,5 @@
 ---
-title: 'Introduction'
+title: 'Collaborating on Projects with Github'
 teaching: 10
 exercises: 2
 ---
