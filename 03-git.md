@@ -1,5 +1,5 @@
 ---
-title: 'Working with RMarkdown'
+title: 'Version Control with Git'
 teaching: 10
 exercises: 2
 ---
@@ -87,7 +87,7 @@ pie(
 ```
 
 <div class="figure" style="text-align: center">
-<img src="fig/rmarkdown-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
+<img src="fig/03-git-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
 <p class="caption">Sun arise each and every morning</p>
 </div>
 Or you can use pandoc markdown for static figures with the following syntax:
