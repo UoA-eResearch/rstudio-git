@@ -59,11 +59,11 @@ contact:
 
 # Order of episodes in your lesson
 episodes:
-- introduction.Rmd
-- rmarkdown.Rmd
-- git.Rmd
-- github.Rmd
-- publish.Rmd
+- 01-introduction.Rmd
+- 02-rmarkdown.Rmd
+- 03-git.Rmd
+- 04-github.Rmd
+- 05-publish.Rmd
 
 # Information for Learners
 learners:
