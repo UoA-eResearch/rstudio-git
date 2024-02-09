@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tesaunders.github.io/rstudio-git/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/02-rmarkdown.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/03-git.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/04-github.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/05-publish.html</loc>
+  </url>
+  <url>
     <loc>https://tesaunders.github.io/rstudio-git/404.html</loc>
   </url>
   <url>
@@ -23,6 +38,21 @@
   </url>
   <url>
     <loc>https://tesaunders.github.io/rstudio-git/index.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/01-introduction.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/02-rmarkdown.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/03-git.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/04-github.html</loc>
+  </url>
+  <url>
+    <loc>https://tesaunders.github.io/rstudio-git/instructor/05-publish.html</loc>
   </url>
   <url>
     <loc>https://tesaunders.github.io/rstudio-git/instructor/404.html</loc>

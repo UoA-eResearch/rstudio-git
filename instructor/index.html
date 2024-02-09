@@ -137,12 +137,19 @@
                   <div class="accordion accordion-flush" id="accordionFlushcurrent">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-headingcurrent">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapsecurrent" aria-expanded="true" aria-controls="flush-collapsecurrent">
         <span class="visually-hidden">Current Chapter</span>
         <span class="current-chapter">
         Summary and Schedule
         </span>
-      
+      </button>
     </div><!--/div.accordion-header-->
+        
+    <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
+      <div class="accordion-body">
+        <ul><li><a href="#collaborative-data-science-with-rstudio-git">Collaborative Data Science with RStudio &amp; Git</a></li>
+        </ul></div><!--/div.accordion-body-->
+    </div><!--/div.accordion-collapse-->
         
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
@@ -150,7 +157,7 @@
 <div class="accordion accordion-flush" id="accordionFlush2">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading2">
-        <a href="introduction.html">1. Introduction</a>
+        <a href="01-introduction.html">1. Introduction</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -159,7 +166,7 @@
 <div class="accordion accordion-flush" id="accordionFlush3">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading3">
-        <a href="rmarkdown.html">2. Working with RMarkdown</a>
+        <a href="02-rmarkdown.html">2. Working with RMarkdown</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -168,7 +175,7 @@
 <div class="accordion accordion-flush" id="accordionFlush4">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading4">
-        <a href="git.html">3. Version Control with Git</a>
+        <a href="03-git.html">3. Version Control with Git</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -177,7 +184,7 @@
 <div class="accordion accordion-flush" id="accordionFlush5">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading5">
-        <a href="github.html">4. Collaborating on Projects with Github</a>
+        <a href="04-github.html">4. Collaborating on Projects with Github</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -186,7 +193,7 @@
 <div class="accordion accordion-flush" id="accordionFlush6">
   <div class="accordion-item">
     <div class="accordion-header" id="flush-heading6">
-        <a href="publish.html">5. Publishing Projects</a>
+        <a href="05-publish.html">5. Publishing Projects</a>
     </div><!--/div.accordion-header-->
         
   </div><!--/div.accordion-item-->
@@ -233,29 +240,35 @@
         <!-- START: inst/pkgdown/templates/content-syllabus.html -->
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="../instructor/introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="../instructor/introduction.html" rel="next">Next: Introduction... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-introduction.html" rel="next">Next: Introduction... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <hr></nav><main id="main-content" class="main-content"><h1 class="schedule-heading">Summary and Schedule</h1>
       
-
-<p>This is a new lesson built with <a href="https://carpentries.github.io/sandpaper-docs" class="external-link">The Carpentries
-Workbench</a>.</p>
+<section id="collaborative-data-science-with-rstudio-git"><h2 class="section-heading">Collaborative Data Science with RStudio &amp; Git<a class="anchor" aria-label="anchor" href="#collaborative-data-science-with-rstudio-git"></a>
+</h2>
+<hr class="half-width"><p>The purpose of this workshop is to introduce R users to the version
+control features integrated into RStudio in order to collaborate on
+shared research projects. Version control is the practice of tracking
+and managing changes to software code. When paired with remote
+repositories, version control systems allow researchers to seamlessly
+collaborate on analyses and manuscripts.</p>
+<p>This workshop is aimed at researchers who already have some
+familiarity with R, for example to the level taught in Data Carpentry.
+Experience with Git and GitHub is useful but not required.</p>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
-
-
-      <section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
+</section><section id="schedule"><table class="table table schedule table-striped" role="presentation"><tbody><tr><td></td><td><a href="#setup">Setup Instructions</a></td><td> Download files required for the lesson</td>
           </tr><tr><td>
 <span class="visually-hidden">Duration: </span>00h 00m
 </td>
 <td>
- 1. <a href="introduction.html">Introduction</a>
+ 1. <a href="01-introduction.html">Introduction</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
@@ -264,7 +277,7 @@ How do you write a lesson using R Markdown and <a href="https://carpentries.gith
 <span class="visually-hidden">Duration: </span>00h 12m
 </td>
 <td>
- 2. <a href="rmarkdown.html">Working with RMarkdown</a>
+ 2. <a href="02-rmarkdown.html">Working with RMarkdown</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
@@ -273,7 +286,7 @@ How do you write a lesson using R Markdown and <a href="https://carpentries.gith
 <span class="visually-hidden">Duration: </span>00h 24m
 </td>
 <td>
- 3. <a href="git.html">Version Control with Git</a>
+ 3. <a href="03-git.html">Version Control with Git</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
@@ -282,7 +295,7 @@ How do you write a lesson using R Markdown and <a href="https://carpentries.gith
 <span class="visually-hidden">Duration: </span>00h 36m
 </td>
 <td>
- 4. <a href="github.html">Collaborating on Projects with Github</a>
+ 4. <a href="04-github.html">Collaborating on Projects with Github</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
@@ -291,7 +304,7 @@ How do you write a lesson using R Markdown and <a href="https://carpentries.gith
 <span class="visually-hidden">Duration: </span>00h 48m
 </td>
 <td>
- 5. <a href="publish.html">Publishing Projects</a>
+ 5. <a href="05-publish.html">Publishing Projects</a>
 </td>
 <td>
 How do you write a lesson using R Markdown and <a href="https://carpentries.github.io/sandpaper/" class="external-link">sandpaper</a>?
@@ -310,80 +323,36 @@ any links that you are not going to use.
  --></tbody></table><p>
       The actual schedule may vary slightly depending on the topics and exercises chosen by the instructor.
       </p>
-      </section><section id="setup"><p>FIXME: Setup instructions live in this document. Please specify the
-tools and the data sets the Learner needs to have installed.</p>
-<section id="data-sets"><h2 class="section-heading">Data Sets<a class="anchor" aria-label="anchor" href="#data-sets"></a>
+      </section><section id="setup"><section id="data"><h2 class="section-heading">Data<a class="anchor" aria-label="anchor" href="#data"></a>
 </h2>
-<hr class="half-width"><!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
---><p>Download the <a href="https://example.com/FIXME" class="external-link">data zip file</a>
-and unzip it to your Desktop</p>
-</section><section id="software-setup"><h2 class="section-heading">Software Setup<a class="anchor" aria-label="anchor" href="#software-setup"></a>
+<hr class="half-width"><p>Download <a href="../data/rstudio-git.csv">this spreadsheet</a> and save
+it to your desktop.</p>
+</section><section id="software"><h2 class="section-heading">Software<a class="anchor" aria-label="anchor" href="#software"></a>
 </h2>
-<hr class="half-width"><div id="details" class="callout discussion">
-<div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<hr class="half-width"><p>You will need to have R, RStudio, and Git installed. You’ll also need
+a GitHub account.</p>
+<div class="section level3">
+<h3 id="r">R<a class="anchor" aria-label="anchor" href="#r"></a></h3>
 </div>
-<div id="details" class="callout-inner">
-<h3 class="callout-title">Details<a class="anchor" aria-label="anchor" href="#details"></a>
-</h3>
-<div class="callout-content">
-<p>Setup for different systems can be presented in dropdown menus via a
-<code>solution</code> tag. They will join to this discussion block, so
-you can give a general overview of the software used in this lesson here
-and fill out the individual operating systems (and potentially add more,
-e.g. online setup) in the solutions blocks.</p>
+<div class="section level3">
+<h3 id="rstudio">RStudio<a class="anchor" aria-label="anchor" href="#rstudio"></a></h3>
 </div>
+<div class="section level3">
+<h3 id="git">Git<a class="anchor" aria-label="anchor" href="#git"></a></h3>
 </div>
-</div>
-<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
-  <h4 class="accordion-header" id="headingSolution1">Windows</h4>
-</button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
-<div class="accordion-body">
-<p>Use PuTTY</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
-  <h4 class="accordion-header" id="headingSolution2">MacOS</h4>
-</button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
-<div class="accordion-body">
-<p>Use Terminal.app</p>
-</div>
-</div>
-</div>
-</div>
-<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
-<div class="accordion-item">
-<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
-  <h4 class="accordion-header" id="headingSolution3">Linux</h4>
-</button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
-<div class="accordion-body">
-<p>Use Terminal</p>
-</div>
-</div>
-</div>
-</div>
+<div class="section level3">
+<h3 id="github-account">GitHub Account<a class="anchor" aria-label="anchor" href="#github-account"></a></h3>
 <!-- 
 Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use. 
  -->
+</div>
 </section></section></main><nav class="bottom-pagination mx-md-4" aria-label="Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
-        <a class="chapter-link float-end" href="../instructor/introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-introduction.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
-        <a class="chapter-link float-end" href="../instructor/introduction.html" rel="next">Next: Introduction... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="../instructor/01-introduction.html" rel="next">Next: Introduction... <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
     </nav></div>
 <!-- END  : inst/pkgdown/templates/content-syllabus.html -->
@@ -427,8 +396,8 @@ any links that you are not going to use.
   "url": "https://tesaunders.github.io/rstudio-git/instructor/index.html",
   "identifier": "https://tesaunders.github.io/rstudio-git/instructor/index.html",
   "dateCreated": "2023-12-08",
-  "dateModified": "2024-02-06",
-  "datePublished": "2024-02-06"
+  "dateModified": "2024-02-09",
+  "datePublished": "2024-02-09"
 }
 
   </script><script>
